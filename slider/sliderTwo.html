@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slider02</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="sliderTwo.css">
+</head>
+<body>
+<div class="text-center">
+    <h2>Slide Show</h2>
+    <div class="container col-lg-12">
+        <img id="mySlides"/>
+        <button class="display-left" onclick="plusDivs(-1)"><i class="glyphicon glyphicon-chevron-left"></i></button>
+        <button class="display-right" onclick="plusDivs(1)"><i class="glyphicon glyphicon-chevron-right"></i></button>
+
+    </div>
+
+    <div class="dotstyle">
+        <ul id="manualSelectionSection">
+            <li onclick="navDiv(0)"></li>
+            <li onclick="navDiv(1)"></li>
+            <li onclick="navDiv(2)"></li>
+            <li onclick="navDiv(3)"></li>
+            <li onclick="navDiv(4)"></li>
+            <li onclick="navDiv(5)"></li>
+            <li onclick="navDiv(6)"></li>
+            <li onclick="navDiv(7)"></li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="sliderTwo.js"></script>
+</body>
+</html>
