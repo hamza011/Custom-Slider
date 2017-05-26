@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 8</title>
+    <link rel="stylesheet" href="todoTable.css">
+</head>
+<body>
+
+<div id="mainDiv">
+    <fieldset>
+        <legend> Add Student : </legend>
+        Student name : <input type="text" id="textField" placeholder="Type Your Name"/> <br/>
+        Roll number : <input type="text" id="rollNum" placeholder="Type Your Roll #"/> <br/>
+        Email ID : <input type="email" id="mail" placeholder="Type Your Email"> <br/>
+        Course :
+        <select id="options">
+            <option value="MCC- Module A">MCC- Module A</option>
+            <option value="MCC- Module B">MCC- Module B</option>
+        </select>
+        <br/>
+        <button onclick="save()" id="submit" class="saveDetails">Submit</button>
+    </fieldset>
+    <h2>STUDENT DETAILS :<hr/></h2>
+    <table id="demo">
+        <tr>
+            <th> Name</th>
+            <th> Roll Number</th>
+            <th> Email ID</th>
+            <th> Course</th>
+        </tr>
+    </table>
+</div>
+
+<script src="todoTable.js"></script>
+</body>
+</html>
